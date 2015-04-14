@@ -13,8 +13,8 @@ include phpapc
 ```
 ```
 phpapc::config {
-  "shm_size":       value => '384M';
-  "num_files_hint": value => 10000;
+  "apc.shm_size":       value => '384M';
+  "apc.num_files_hint": value => '10000';
 }
 ```
 
